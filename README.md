@@ -6,12 +6,7 @@
 - **URL Analysis**: Input a URL to check the reliability of an article, social media post, blog, etc.
 - **AI-Powered Insights**: Get detailed insights into the article's credibility and potential biases (political, religious, racial, gender, personal, etc.).
 - **User-Friendly Interface**: Simple and intuitive design for easy and frequent use.
-
-## Examples
-![Veritas AI](C:\Users\uyiog\OneDrive\Pictures\Veritas AI Screenshots\high-reliability-score-example.png)
-![Veritas AI](C:\Users\uyiog\OneDrive\Pictures\Veritas AI Screenshots\amber colour example for msnbc-trump-charlottesville.png)
-![Veritas AI](C:\Users\uyiog\OneDrive\Pictures\Veritas AI Screenshots\first scale representation.png)
-
+- 
 ## How to Use
 
 ### Prerequisites
