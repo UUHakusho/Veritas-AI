@@ -1,18 +1,25 @@
 # Veritas AI
 
-**Veritas AI** is an intelligent AI fact-checking tool that analyzes the reliability of online articles. It helps users determine the trustworthiness of content by providing a reliability score and insights. 
-"THE TRUTH WILL SET US FREE"
+**Veritas AI** is an intelligent AI media fact-checking tool and bias detector that analyzes the reliability of online articles. It helps users determine the trustworthiness of content by providing a reliability score and insights. 
+
+This project has been good practice for me to learn about incorporating AI like gpt-4o in simple web applications.
+
+## Examples
+![Alt text](images/high-reliability-score-example.png)
+![Alt text](images/amber-colour-example.png)
+![Alt text](images/nytimes-high-example.png)
 
 ## Features
-- **URL Analysis**: Input a URL to check the reliability of an article, social media post, blog, etc.
-- **AI-Powered Insights**: Get detailed insights into the article's credibility and potential biases (political, religious, racial, gender, personal, etc.).
-- **User-Friendly Interface**: Simple and intuitive design for easy and frequent use.
+- **URL Analysis**: Input a URL to check the reliability of a news article. The reliability score is out of 100 (< 50 = red, 50-75 = amber, > 75 = green).
+- **AI-Powered Insights**: Get detailed insights into the article's credibility and potential biases (political, religious, personal, etc). 
+- **User-Friendly Interface**: Simple and intuitive design for easy and frequent use. 
 
 ## How to Use
 
 ### Prerequisites
 - Node.js (v16 or higher)
 - npm (v8 or higher)
+- OpenAI API key and .env file
 
 ### Setup
 
@@ -65,4 +72,15 @@ Backend:
 - Express.js
 - CORS middleware
 
-## Database Schemas
+AI:
+- OpenAI API
+- gpt-4o
+
+## Future Improvements
+- Add a database to store user data and analysis history
+- Design a better UI/UX
+- Allow insights to be shared on social media
+- Fine-tune an AI model on bias and misinformation detection rather than using OpenAI
+- Program should be able to scan articles, social media posts, blogs, pdfs, scholarly papers, and videos.
+
+
