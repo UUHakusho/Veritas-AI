@@ -1,5 +1,6 @@
 # Veritas AI
 
+<<<<<<< HEAD
 **Veritas AI** is an intelligent AI media fact-checking tool and bias detector that analyzes the reliability of online articles. It helps users determine the trustworthiness of content by providing a reliability score and insights. 
 
 This project has been good practice for me to learn about incorporating AI like gpt-4o in simple web applications.
@@ -14,6 +15,15 @@ This project has been good practice for me to learn about incorporating AI like 
 - **AI-Powered Insights**: Get detailed insights into the article's credibility and potential biases (political, religious, personal, etc). 
 - **User-Friendly Interface**: Simple and intuitive design for easy and frequent use. 
 
+=======
+**Veritas AI** is an intelligent AI media fact-checking and bias-detecting tool that analyzes the reliability of online articles. It helps users determine the trustworthiness of content by providing a reliability score and insights. 
+
+## Features
+- **URL Analysis**: Input a URL to check the reliability of an article, social media post, blog, etc.
+- **AI-Powered Insights**: Get detailed insights into the article's credibility and potential biases (political, religious, racial, gender, personal, etc.).
+- **User-Friendly Interface**: Simple and intuitive design for easy and frequent use.
+- 
+>>>>>>> 08c18d2eef847569987414f74591e0439b314ce1
 ## How to Use
 
 ### Prerequisites
@@ -72,6 +82,7 @@ Backend:
 - Express.js
 - CORS middleware
 
+<<<<<<< HEAD
 AI:
 - OpenAI API
 - gpt-4o
@@ -84,3 +95,6 @@ AI:
 - Program should be able to scan articles, social media posts, blogs, pdfs, scholarly papers, and videos.
 
 
+=======
+## Database Schemas
+>>>>>>> 08c18d2eef847569987414f74591e0439b314ce1
